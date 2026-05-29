@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: spring-security-session-management
+  datasource:
+    url: jdbc:postgresql://localhost:5437/password
+    username: my-user
+    password: security-db
+    driver-class-name: org.postgresql.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+
+    show-sql: true
+
+  jwt:
+    secret: myVdrftyjgyuuuhluioby76754523424dctyfjybgkuhkhknjkmj
+server.port: 8081
